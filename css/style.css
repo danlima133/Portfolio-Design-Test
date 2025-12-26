@@ -1,0 +1,122 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+/* Definindo estilos padroes */
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	background-color: #e7dfd8;
+	font-family: "Agrandir", "Helvetica", sans-serif;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	
+	width: 80%;
+	min-width: 920px;
+	
+	height: 100vh;
+
+	margin: 0 auto;
+}
+
+/* header nav bar */
+header {
+	height: 100%;
+	margin-top: 20px;
+}
+
+header nav {
+	height: 100%;
+}
+
+header nav ul {
+	display: flex;
+	height: 100%;
+	justify-content: space-around;
+}
+
+header nav ul li {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+header nav ul li a {
+	text-transform: uppercase;
+	color: black;
+	font-weight: bold;
+}
+
+header nav ul li a::after {
+	content: "";
+	
+	float: left;
+	width: 0;
+	
+	border-top: 0.15em solid black;
+}
+
+header nav ul li a:hover::after {
+	width: 100%;
+	transition: 0.1s;
+}
+
+/* conteudo principal */
+section {
+	display: flex;
+	
+	padding: 20px;
+	margin: 20px;
+
+	border: 1px solid black;
+}
+
+#main {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+#about-me h1 {
+	font-size: 3em;
+}
+
+#about-me p {
+	font-size: 1.2em;
+}
+
+section img.photo {
+	padding-left: 20px;
+}
+
+/* footer */
+footer a {
+	display: block;
+	
+	padding-left: 10px;
+	margin-bottom: 20px;
+
+	font-weight: bold;
+	font-size: 1.3em;
+
+	color: black;
+}
+
+footer nav ul a {
+	display: block;
+	float: left;
+
+	padding: 0 10px;
+}

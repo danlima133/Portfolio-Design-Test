@@ -1,0 +1,10 @@
+@font-face {
+	font-family: "Agrandir";
+	src: url("./Agrandir-Regular.otf");
+}
+
+@font-face {
+	font-family: "Agrandir";
+	src: url("./Agrandir-TextBold.otf");
+	font-weight: bold;
+}
